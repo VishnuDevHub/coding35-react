@@ -1,0 +1,66 @@
+/* Write your CSS here */
+
+.similar-list-item {
+  list-style-type: none;
+  padding-left: 0px;
+  margin-right: 50px;
+  width: 20%;
+}
+
+.rating-para {
+  background-color: #3b82f6;
+  border: none;
+  font-weight: 600;
+  border-radius: 4px;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  color: #ffffff;
+  font-family: 'Roboto';
+  display: flex;
+  align-items: center;
+}
+
+.star-img {
+  width: 20px;
+  color: #ffffff;
+  margin-left: 2px;
+}
+
+.review-para {
+  font-family: 'Roboto';
+  color: #475569;
+}
+
+.similar-img {
+  width: 100%;
+  border-radius: 4px;
+}
+
+.title {
+  color: #12022f;
+  font-family: 'Roboto';
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.brand {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 14px;
+}
+
+.price {
+  color: #171f46;
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.price-rating-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
